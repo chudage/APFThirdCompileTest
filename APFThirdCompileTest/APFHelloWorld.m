@@ -15,4 +15,9 @@
     return @"Hello";
 }
 
+- (NSString *)newHello {
+    
+    return @"Hello 1.0.2";
+}
+
 @end
