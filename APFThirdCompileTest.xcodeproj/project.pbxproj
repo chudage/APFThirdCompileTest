@@ -10,6 +10,8 @@
 		846B4D3A1E9F61ED00489ACA /* APFThirdCompileTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 846B4D301E9F61ED00489ACA /* APFThirdCompileTest.framework */; };
 		846B4D3F1E9F61ED00489ACA /* APFThirdCompileTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 846B4D3E1E9F61ED00489ACA /* APFThirdCompileTestTests.m */; };
 		846B4D411E9F61ED00489ACA /* APFThirdCompileTest.h in Headers */ = {isa = PBXBuildFile; fileRef = 846B4D331E9F61ED00489ACA /* APFThirdCompileTest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		846B4D4C1E9F624000489ACA /* APFHelloWorld.h in Headers */ = {isa = PBXBuildFile; fileRef = 846B4D4A1E9F624000489ACA /* APFHelloWorld.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		846B4D4D1E9F624000489ACA /* APFHelloWorld.m in Sources */ = {isa = PBXBuildFile; fileRef = 846B4D4B1E9F624000489ACA /* APFHelloWorld.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +31,8 @@
 		846B4D391E9F61ED00489ACA /* APFThirdCompileTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = APFThirdCompileTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		846B4D3E1E9F61ED00489ACA /* APFThirdCompileTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = APFThirdCompileTestTests.m; sourceTree = "<group>"; };
 		846B4D401E9F61ED00489ACA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		846B4D4A1E9F624000489ACA /* APFHelloWorld.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APFHelloWorld.h; sourceTree = "<group>"; };
+		846B4D4B1E9F624000489ACA /* APFHelloWorld.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APFHelloWorld.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +77,8 @@
 			children = (
 				846B4D331E9F61ED00489ACA /* APFThirdCompileTest.h */,
 				846B4D341E9F61ED00489ACA /* Info.plist */,
+				846B4D4A1E9F624000489ACA /* APFHelloWorld.h */,
+				846B4D4B1E9F624000489ACA /* APFHelloWorld.m */,
 			);
 			path = APFThirdCompileTest;
 			sourceTree = "<group>";
@@ -93,6 +99,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				846B4D4C1E9F624000489ACA /* APFHelloWorld.h in Headers */,
 				846B4D411E9F61ED00489ACA /* APFThirdCompileTest.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -195,6 +202,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				846B4D4D1E9F624000489ACA /* APFHelloWorld.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

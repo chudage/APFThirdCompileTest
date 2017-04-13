@@ -7,6 +7,7 @@
 //
 
 #import <XCTest/XCTest.h>
+#import "APFHelloWorld.h"
 
 @interface APFThirdCompileTestTests : XCTestCase
 
@@ -27,6 +28,9 @@
 - (void)testExample {
     // This is an example of a functional test case.
     // Use XCTAssert and related functions to verify your tests produce the correct results.
+    APFHelloWorld *helloWorld = [[APFHelloWorld alloc] init];
+    NSString *hello = [helloWorld hello];
+    XCTAssertEqualObjects(hello, @"Hello");
 }
 
 - (void)testPerformanceExample {
