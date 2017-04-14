@@ -14,4 +14,6 @@
 
 - (NSString *)newHello;
 
+- (NSString *)helloWorld;
+
 @end
