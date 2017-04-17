@@ -25,4 +25,9 @@
     return @"Hello World 1.0.3";
 }
 
+- (NSString *)helloVersion {
+    
+    return @"Hello Version 1.0.4";
+}
+
 @end

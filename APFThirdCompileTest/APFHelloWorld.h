@@ -16,4 +16,6 @@
 
 - (NSString *)helloWorld;
 
+- (NSString *)helloVersion;
+
 @end
