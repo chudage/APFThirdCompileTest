@@ -20,4 +20,6 @@
 
 - (NSString *)hi;
 
+- (NSString *)hi2;
+
 @end
