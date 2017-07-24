@@ -30,4 +30,8 @@
     return @"Hello Version 1.0.4";
 }
 
+- (NSString *)hi {
+    return @"Hi version 1.0.5";
+}
+
 @end

@@ -18,4 +18,6 @@
 
 - (NSString *)helloVersion;
 
+- (NSString *)hi;
+
 @end
