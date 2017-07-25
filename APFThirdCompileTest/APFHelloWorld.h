@@ -22,4 +22,6 @@
 
 - (NSString *)hi2;
 
+- (NSString *)hi3;
+
 @end
