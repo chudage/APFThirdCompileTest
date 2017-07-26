@@ -2,7 +2,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "APFThirdCompileTest"
-  s.version      = "1.0.7"
+  s.version      = "1.0.8"
   s.summary      = "A short description of APFThirdCompileTest."
 
   s.description  = <<-DESC
