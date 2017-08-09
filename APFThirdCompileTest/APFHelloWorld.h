@@ -28,4 +28,6 @@
 
 - (NSString *)hi5;
 
+- (NSString *)hi6;
+
 @end
