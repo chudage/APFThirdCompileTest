@@ -30,4 +30,6 @@
 
 - (NSString *)hi6;
 
+- (NSString *)hi7;
+
 @end
