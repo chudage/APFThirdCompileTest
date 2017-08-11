@@ -42,4 +42,6 @@
 
 - (NSString *)hi12;
 
+- (NSString *)hi13;
+
 @end
