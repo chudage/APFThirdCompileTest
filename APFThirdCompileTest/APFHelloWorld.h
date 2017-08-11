@@ -40,4 +40,6 @@
 
 - (NSString *)hi11;
 
+- (NSString *)hi12;
+
 @end
