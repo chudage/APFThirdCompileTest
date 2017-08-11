@@ -66,4 +66,8 @@
     return @"Hi version 1.0.13";
 }
 
+- (NSString *)hi10 {
+    return @"Hi version 1.0.14";
+}
+
 @end
