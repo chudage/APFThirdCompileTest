@@ -52,4 +52,6 @@
 
 - (NSString *)hi17;
 
+- (NSString *)hi18;
+
 @end
